@@ -1,0 +1,160 @@
+body{
+  font-family: "Montserrat";
+}
+h1{
+  font-family: 'Montserrat-Black',sans-serif;
+  font-size:3.5em;
+  line-height: 1.5;
+}
+
+h3{
+  font-family:'Montserrat-Black',sans-serif;
+  font-weight: Bold;
+}
+p{
+  color:#8f8f8f;
+}
+
+/* Nav bar */
+
+.nav-item{
+  padding:0 18px;
+  font-family: 'Ubauntu',sans-serif;
+}
+.navbar{
+  padding:1% 5% 1% 5%;
+  position: fixed;
+  width: 100%;
+  top:0;
+  background-color: #4f3961;
+  z-index: 20;
+}
+.navbar-brand{
+  font-size:2.5rem;
+  font-weight:bold;
+}
+
+
+/* Title */
+#title{
+  text-align:center;
+  background-color: #ff4c68;
+  color:#fff;
+}
+
+.container-fluid{
+  padding:10% 12% 0 12%;
+  background-image:url('https://cdn3.f-cdn.com/contestentries/212081/10921447/5549c4f4d2bd5_thumb900.jpg');
+  background-size:100% 100%;
+}
+
+.img1{
+  width:100%;
+  height:500px;
+  border-radius: 100%;
+  padding-bottom: 5%;
+}
+
+.download-btn{
+  margin:2% 3% 4% 0;
+}
+
+/* Features */
+
+#features{
+  padding:7% 15%;
+}
+
+.img2{
+  width:29%;
+  height:300px;
+  margin: 3rem;
+  border-radius: 100%;
+}
+
+.features-box{
+  padding:5%;
+  text-align:center;
+}
+.icon-manage{
+  margin-bottom: 10px;
+  color:#d45079;
+}
+.icon-manage:hover{
+  color:#512b58;
+}
+
+/* Carousel Section */
+
+#testimonials{
+  padding:7% 15%;
+  background-color: #ef8172;
+  text-align: center;
+  color:#fff;
+}
+
+/* Press */
+#press{
+  background-color: #ef8172;
+  padding-bottom:3%;
+  text-align:center;
+}
+.press-img{
+  width:15%;
+  margin:20px;
+}
+
+/* Project price and Membership */
+
+#pricing{
+  padding-top:3%;
+  text-align: center;
+}
+.card-pricing{
+  text-align:center;
+  padding:0 25% 4% 25%;
+}
+
+/* Call to Action */
+
+#cta{
+  text-align:center;
+  color:#fff;
+  padding:5% 15%;
+  background-color: #f35588;
+}
+.cta-heading{
+  font-family: 'Montserrat-Bold',sans-serif;
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+/*       Footer      */
+
+
+#footer{
+  margin:80px;
+  text-align:center;
+}
+.cta-icon{
+  margin:15px;
+
+}
+.footer-color{
+color: #3B5998;
+}
+
+
+
+@media (max-width:750px){
+  .img1{
+    border-radius:0;
+  }
+  .img2{
+    height:200px;
+  }
+  .container-fluid{
+    padding:10% 12% 0 12%;
+    position: relative;
+    top:20px;
+  }
